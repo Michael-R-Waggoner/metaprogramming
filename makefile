@@ -20,4 +20,3 @@ go: go.go
 
 clean:
 	rm c 
-	rm rust 
