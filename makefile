@@ -2,10 +2,10 @@ cflags = -g3 -Wall -Werror -O2
 
 .phony: all, clean 
 
-all: c rust go
+all: c go
 
 rant: rant.py 
-	python rant.py 
+	python3 rant.py 
 
 c: c.c
 	gcc $(cflags) c.c -o c
